@@ -17,7 +17,7 @@ interface Route {
 export const routes: Array<Route> = [
     {
         key: 'home-route',
-        title: 'Topp 50',
+        title: 'Topp 50 liste',
         path: '/',
         enabled: true,
         component: Home
