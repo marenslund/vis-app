@@ -18,14 +18,14 @@ export const routes: Array<Route> = [
     {
         key: 'home-route',
         title: 'Topp 50 liste',
-        path: '/',
+        path: '/vis-app',
         enabled: true,
         component: Home
     },
     {
         key: 'properties-route',
         title: 'Egenskaper',
-        path: '/properties',
+        path: '/vis-app/properties',
         enabled: true,
         component: Properties
     }
